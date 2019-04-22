@@ -12,7 +12,6 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  tutorial = ["hey there", "hi again"];
   return tutorial.map(x => { 
     x = x.split(' ');
     for (i = 0; i < x.length; i++){
