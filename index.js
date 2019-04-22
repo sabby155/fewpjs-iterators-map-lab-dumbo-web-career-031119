@@ -13,11 +13,14 @@ const tutorials = [
 
 const titleCased = () => {
   tutorial = ["hey there", "hi again"];
-   tutorial.map(x => 
+  return tutorial.map(x => { 
     x = x.split(' ');
     for (i = 0; i < x.length; i++){
-     x[i] = x[i].charAt(0).toUpperCase() + x[i].slice(1));
+     x[i] = x[i].charAt(0).toUpperCase() + x[i].slice(1);
     }
-  return x.join('')
+    return x.join(' ');
+   });
 }
+
+
 
