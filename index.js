@@ -15,5 +15,3 @@ const titleCased = () => {
   return tutorials
 }
 
-const newarray = titleCased.map(x => x.capitzalize);
-newarray;
